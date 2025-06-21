@@ -114,15 +114,24 @@ panel_install(){
 #! /bin/sh -
 
 FQDN=`echo $1`
-SSL=`echo $2`
-EMAIL=`echo $3`
-USERNAME=`echo $4`
-FIRSTNAME=`echo $5`
-LASTNAME=`echo $6`
-PASSWORD=`echo $7`
-WINGS=`echo $8`
+SSL="true"
+EMAIL="arivpnstore@gmail.com"
+USERNAME="ari"
+FIRSTNAME="ari"
+LASTNAME="ari"
+PASSWORD="ari"
+WINGS="true"
 
-if [ -z "$FQDN" ] || [ -z "$SSL" ] || [ -z "$EMAIL" ] || [ -z "$USERNAME" ] || [ -z "$FIRSTNAME" ] || [ -z "$LASTNAME" ] || [ -z "$PASSWORD" ] || [ -z "$WINGS" ]; then
+#FQDN=`echo $1`
+#SSL=`echo $2`
+#EMAIL=`echo $3`
+#USERNAME=`echo $4`
+#FIRSTNAME=`echo $5`
+#LASTNAME=`echo $6`
+#PASSWORD=`echo $7`
+#WINGS=`echo $8`
+
+if [ -z "$FQDN" ]; then
     echo "Error! THe usage of this script is incorrect."
     exit 1
 fi
