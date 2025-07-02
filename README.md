@@ -43,5 +43,5 @@ You must be precise when using this script. 1 typo and everything can go wrong.
 It also needs to be run on a fresh version of Ubuntu or Debian.
 
 ```bash
-bash <(curl -s https://raw.githubusercontent.com/guldkage/Pterodactyl-Installer/main/autoinstall.sh) <fqdn>
+bash <(curl -s https://raw.githubusercontent.com/arivpnstores/Pterodactyl-Installer/main/autoinstall.sh) <fqdn>
 ```
